@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Andre & Sofia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/sakura/sakura.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/light_particles.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css" />
+    <!-- sweatalert -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <!-- Pop up -->
+    <section
+      id="popup"
+      class="min-vh-100 min-vw-100 position-fixed start-0 top-0 overflow-hidden"
+    >
+      <div class="container atas position-relative">
+        <div class="row position-relative">
+          <div class="position-absolute text-center name">
+            <h1 class="nickname andre">Andre</h1>
+            <p class="and_inv">&</p>
+            <h1 class="nickname sofia">Sofiia</h1>
+          </div>
+        </div>
+        <div class="container bawah position-relative">
+          <div class="row position-relative">
+            <div class="text-center position-absolute invite">
+              <span>Kpd. Yth. :</span>
+              <p>GUEST & PARTNER</p>
+              <button
+                type="button"
+                class="btn btn-open"
+                onclick="window.toggle_click();"
+              >
+                Open Invitation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pop up -->
+
+    <section id="cover_section">
+      <img
+        class="left_orn"
+        src="img/ornament_cover_left.png"
+        alt="left ornament"
+      />
+      <img
+        class="right_orn"
+        src="img/ornament_cover_right.png"
+        alt="right ornament"
+      />
+      <div class="cover_wrapper container text-center">
+        <p class="name_coverA">Andre</p>
+        <p class="and_cover">&</p>
+        <p class="name_coverS">Sofia</p>
+        <p class="date_cover fs-3">20.06.2023</p>
+      </div>
+    </section>
+    <section id="ayatsuci_section">
+      <div class="container text-center">
+        <p class="ayat_arti" data-aos="fade-up" data-aos-duration="3000">
+          Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+          pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
+          dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa
+          kasih dan sayang
+        </p>
+        <h3
+          class="nama_surat fw-bold"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          Q.S. Ar-Rum: 21
+        </h3>
+      </div>
+    </section>
+    <section id="bridename_section">
+      <div class="container text-center">
+        <p class="salam pb-2" data-aos="fade-up" data-aos-duration="3000">
+          Assalamua'alaikum Wr. Wb <br />
+          Dengan memohon rahmat dan ridho Allah SWT, Kami bermaksud mengundang
+          Bapak / Ibu / Saudaria(i) dalam rangkaian acara resepsi kami:
+        </p>
+        <div class="row my-5 text-center">
+          <div class="girl_wedding col-md-5 pe-md-5">
+            <img
+              class="photo_pengantin rounded-circle"
+              src="img/girl.jpg"
+              alt="girl"
+              data-aos="flip-right"
+              data-aos-duration="3000"
+            />
+            <h3
+              class="pt-3 nama_pengantin"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+            >
+              Sofia Asyfa Nur
+            </h3>
+            <p class="nama_ortu" data-aos="fade-down" data-aos-duration="3000">
+              Putri pertama Bapak H. Jami Assidiqi dan Ibu Nur Arrohmah
+            </p>
+          </div>
+          <div class="and_BN col-md-2 pt-md-5 py-md-5" data-aos="zoom-in"
+          data-aos-duration="3000">&</div>
+          <div class="boy_wedding col-md-5 ps-md-5">
+            <img
+              class="photo_pengantin rounded-circle"
+              src="img/boy.jpg"
+              alt="girl"
+              data-aos="flip-right"
+              data-aos-duration="3000"
+            />
+            <h3
+              class="pt-3 nama_pengantin"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+            >
+              Andre Pratama
+            </h3>
+            <p class="nama_ortu" data-aos="fade-down" data-aos-duration="3000">
+              Putra kedua Bapak H. Ahmad Sumanto dan Ibu Nur Astiani
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="kiasan_section" class="position-relative">
+      <img
+        class="left_leaf_orn"
+        src="img/ornament_leaf_left.png"
+        alt="left ornament"
+      />
+      <img
+        class="right_leaf_orn"
+        src="img/ornament_leaf_right.png"
+        alt="right ornament"
+      />
+      <div class="container text-center">
+        <p class="isi_kiasan" data-aos="fade-up" data-aos-duration="3000">
+          Untuk setiap keindahan, ada sepasang mata di satu tempat yang
+          melihatnya. Untuk setiap kebenaran, ada sepasang telinga di satu
+          tempat yang mendengarnya. Untuk setiap cinta, ada hati di satu tempat
+          yang menerimanya.
+        </p>
+        <h3 class="oleh_kiasan fw-bold" data-aos="fade-up" data-aos-duration="3000">Andre & Sofia</h3>
+      </div>
+    </section>
+    <section id="savedate_section" class="text-center">
+      <div class="container">
+        <h1 class="savedate_title" data-aos="fade-down" data-aos-duration="3000">SAVE THE DATE</h1>
+        <div class="row mt-md-5 mt-sm-3">
+          <div class="ijab col-md-5" data-aos="fade-up" data-aos-duration="3000">
+            <h2 class="pb-2 judulacara">Ijab Qabul</h2>
+            <h4 class="hari">Rabu</h4>
+            <div
+              class="tanggal_ d-flex justify-content-around align-items-center"
+            >
+              <p class="tanggal ms-3 ps-3">21</p>
+              <p class="line">|</p>
+              <p class="bulan">Juni</p>
+              <p class="line">|</p>
+              <p class="tahun">2023</p>
+            </div>
+            <h4 class="jam">08:00 WIB</h4>
+            <h4 class="tempat">Masjid Al-Hidayah</h4>
+            <p class="alamat mb-md-4">
+              Dusun III Kalipagu, Ketenger, Kec Baturraden, Kabupaten Banyumas
+            </p>
+            <a class="map_btn" href="">See map</a>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="resepsi col-md-5" data-aos="fade-down" data-aos-duration="3000">
+            <h2 class="pb-2 judulacara">Resepsi Pernikahan</h2>
+            <h4 class="hari">Kamis</h4>
+            <div
+              class="tanggal_ d-flex justify-content-around align-items-center"
+            >
+              <p class="tanggal ms-3 ps-3">22</p>
+              <p class="line">|</p>
+              <p class="bulan">Juni</p>
+              <p class="line">|</p>
+              <p class="tahun">2023</p>
+            </div>
+            <h4 class="jam">10:00 WIB</h4>
+            <h4 class="tempat">Aston Imperium Purwokerto</h4>
+            <p class="alamat mb-md-4">
+              Glempang, Kec. Purwokerto Utara, Kabupaten Banyumas
+            </p>
+            <a class="map_btn" href=""> See map</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="position-relative" id="countdown_section">
+      <img
+        class="ornament_countdown"
+        src="img/ornament_onlyleft.png"
+        alt="ornament"
+      />
+      <div class="container text-center">
+        <div id="clock" class="row" data-aos="fade-down" data-aos-duration="3000">
+          <div class="countdown col-sm-3 col-6 lh-sm" >
+            <span class="number_countdown"> 0 </span> <br />
+            Days
+          </div>
+          <div class="countdown col-sm-3 col-6 lh-sm">
+            <span class="number_countdown"> 0 </span> <br />
+            Hours
+          </div>
+          <div class="countdown col-sm-3 col-6 lh-sm">
+            <span class="number_countdown"> 0 </span> <br />
+            Minutes
+          </div>
+          <div class="countdown col-sm-3 col-6 lh-sm">
+            <span class="number_countdown"> 0 </span> <br />
+            Seconds
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="lovestory_section">
+      <div class="container text-center">
+        <h1 class="lovestory_title" data-aos="fade-up" data-aos-duration="3000">OUR LOVE STORY</h1>
+        <div class="row mt-4 mt-md-5">
+          <div class="col-md-4 my-1 my-md-0" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="card_lovestory">
+              <img
+                class="photo_lovestory rounded-3 mb-3"
+                src="img/model wedding lovestory.jpg"
+                alt="lovestory photo"
+              />
+              <h4 class="judul_lovestory">Cinta Pertama</h4>
+              <p class="tanggal_lovestory">13.02.2021</p>
+              <p class="isi_lovestory">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+                eaque veritatis doloribus iste at nesciunt, ullam quod amet, in
+                eum, magni impedit. Facere, accusamus!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 my-1 my-md-0" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="card_lovestory">
+              <img
+                class="photo_lovestory rounded-3 mb-3"
+                src="img/model wedding1 lovestory.jpg"
+                alt="lovestory photo"
+              />
+              <h4 class="judul_lovestory">Merasa Nyaman</h4>
+              <p class="tanggal_lovestory">28.09.2022</p>
+              <p class="isi_lovestory">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+                eaque veritatis doloribus iste at nesciunt, ullam quod amet, in
+                eum, magni impedit. Facere, accusamus!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 my-1 my-md-0" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="card_lovestory">
+              <img
+                class="photo_lovestory rounded-3 mb-3"
+                src="img/model wedding3 lovestory.jpg"
+                alt="lovestory photo"
+              />
+              <h4 class="judul_lovestory">Tunangan</h4>
+              <p class="tanggal_lovestory">25.05.2023</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+                eaque veritatis doloribus iste at nesciunt, ullam quod amet, in
+                eum, magni impedit. Facere, accusamus!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bestmoment_section">
+      <div class="container">
+        <h1 class="gallery_title text-center" data-aos="fade-up" data-aos-duration="3000">BEST MOMENT</h1>
+        <p class="swipetext text-end" data-aos="fade-down" data-aos-duration="3000">
+          Swipe <br />
+          <span class="arrow_right" >←</span>
+        </p>
+        <div id="data-wishes" class="owl-carousel owl-theme" data-aos="zoom-in" data-aos-duration="3000">
+          <div class="item photo_gallery">
+            <img src="img/model wedding.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding1.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding2.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding3.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding5.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding6.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding7.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding8.jpg" alt="wedding photo" />
+          </div>
+          <div class="item photo_gallery">
+            <img src="img/model wedding9.jpg" alt="wedding photo" />
+          </div>
+        </div>
+        <iframe
+          width="100%"
+          class="video_wedding mt-4"
+          src="https://www.youtube.com/embed/fq2CdnfijhQ"
+          title="OUR WEDDING | Whitney + Stefan"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          data-aos="fade-up" data-aos-duration="3000"
+        ></iframe>
+      </div>
+    </section>
+    <section id="rsvp_section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6" data-aos="fade-down" data-aos-duration="3000">
+            <h4 class="rsvp_subtitle">RSVP here!</h4>
+            <h2 class="rsvp_title">ARE YOU ATTENDING ?</h2>
+            <p class="info_rsvp">
+              Please registery 7 days before wedding reception
+            </p>
+            <div class="form mt-4 mt-lg-5 mb-lg-3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="name_field"
+                placeholder="Your name"
+              />
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                class="phone_field"
+                placeholder="Phone"
+              />
+              <select name="guest" id="guest" class="guest_field">
+                <option value="1 Guest">1 Guest</option>
+                <option value="2 Guest">2 Guest</option>
+                <option value="3 Guest">3 Guest</option>
+                <option value="4 Guest">4 Guest</option>
+                <option value="5 Guest">5 Guest</option>
+                <option value="6 Guest">6 Guest</option>
+                <option value="7 Guest">7 Guest</option>
+                <option value="8 Guest">8 Guest</option>
+              </select>
+            </div>
+            <input class="rsvp_button" type="button" value="Send" />
+          </div>
+          <div class="col-md-6 text-center mt-md-4" data-aos="fade-up" data-aos-duration="3000">
+            <span class="count_sect">
+              <p class="count_rsvp">100</p>
+              <h2>People have filled out this attendance form</h2>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gift_section" class="position-relative">
+      <img
+        class="left_orn_gift"
+        src="img/ornament_leaf_left.png"
+        alt="left ornament"
+      />
+      <img
+        class="right_orn_gift"
+        src="img/ornament_leaf_right.png"
+        alt="right ornament"
+      />
+      <div class="container text-center">
+        <h1 class="gift_title" data-aos="fade-down" data-aos-duration="3000">WEDDING GIFT</h1>
+        <p class="info_gift" data-aos="fade-down" data-aos-duration="3000">
+          With all due respect, for those of you who wants to deliver a virtual
+          gift, can the button bellow
+        </p>
+        <button
+          type="button"
+          class="gift_btn rounded-circle"
+          data-bs-toggle="modal"
+          data-bs-target="#giftBox"
+          data-aos="zoom-in" data-aos-duration="3000"
+        >
+          <svg
+            width="80"
+            height="97"
+            viewBox="0 0 226 248"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 65.5859V196.086L56.5 221.086M2 65.5859L56.5 90.0859M2 65.5859L29.25 52.0859L36.0625 48.7109L39.4688 47.0234M111 246.086V114.586M111 246.086L56.5 221.086M111 246.086L167.75 221.086M111 114.586L56.5 90.0859M111 114.586L167.75 90.0859M224.5 65.5859V196.086L167.75 221.086M224.5 65.5859L167.75 90.0859M224.5 65.5859L196.125 52.0859L189.031 48.7109M56.5 90.0859V221.086M56.5 90.0859L111 65.5859M111 65.5859C75.3333 64.2525 11.3 48.5859 30.5 16.5859C56.5 -26.7474 91.3333 37.5859 111 65.5859ZM111 65.5859L167.75 90.0859M111 65.5859C130.167 32.1997 174 -13.4141 194 16.5859C219.366 54.6349 147.167 66.3054 111 65.5859ZM167.75 90.0859V221.086M83.75 25.0859L111 11.5859L139.375 25.0859L141.148 25.9296L142.922 26.7734"
+              stroke="#efb8c3"
+              stroke-width="6"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="giftBox"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+      >
+        <div class="modal-content" style="background-color: #efb8c3">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              <svg
+                class="me-2"
+                width="26"
+                height="43"
+                viewBox="0 0 226 248"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 65.5859V196.086L56.5 221.086M2 65.5859L56.5 90.0859M2 65.5859L29.25 52.0859L36.0625 48.7109L39.4688 47.0234M111 246.086V114.586M111 246.086L56.5 221.086M111 246.086L167.75 221.086M111 114.586L56.5 90.0859M111 114.586L167.75 90.0859M224.5 65.5859V196.086L167.75 221.086M224.5 65.5859L167.75 90.0859M224.5 65.5859L196.125 52.0859L189.031 48.7109M56.5 90.0859V221.086M56.5 90.0859L111 65.5859M111 65.5859C75.3333 64.2525 11.3 48.5859 30.5 16.5859C56.5 -26.7474 91.3333 37.5859 111 65.5859ZM111 65.5859L167.75 90.0859M111 65.5859C130.167 32.1997 174 -13.4141 194 16.5859C219.366 54.6349 147.167 66.3054 111 65.5859ZM167.75 90.0859V221.086M83.75 25.0859L111 11.5859L139.375 25.0859L141.148 25.9296L142.922 26.7734"
+                  stroke="#ffffff"
+                  stroke-width="15"
+                />
+              </svg>
+              Wedding Gift
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row gap-0">
+              <div class="col-12 col-sm-6">
+                <div class="rekening shadow my-4">
+                  <img src="img/BNI.png" alt="Bank BNI" width="200px" />
+                  <h4 class="nama_rekening">a/n Andre</h4>
+                  <p class="no_rekening bni">8686192738</p>
+                  <button
+                    style="font-size: 12px"
+                    onclick="copyBNI();"
+                    onmouseout="outFunc1()"
+                  >
+                    <span id="myTooltip1">Copy Account</span>
+                    <i class="fa fa-copy ms-1"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="rekening shadow my-4">
+                  <img src="img/BCA.png" alt="Bank BCA" width="200px" />
+                  <h4 class="nama_rekening">a/n Sofia</h4>
+                  <p class="no_rekening bca">31779172854</p>
+                  <button
+                    style="font-size: 12px"
+                    onclick="copyBCA();"
+                    onmouseout="outFunc3()"
+                  >
+                    <span id="myTooltip3">Copy Account</span
+                    ><i class="fa fa-copy ms-1"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+
+    <section id="wishes_section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-5" data-aos="fade-down" data-aos-duration="3000">
+            <h2 class="wish_title">THANKS FOR YOUR GREAT WISHES</h2>
+            <div class="form mt-5 mb-sm-3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="name_field"
+                placeholder="Your name"
+              />
+              <input
+                type="text"
+                name="wish"
+                id="wish"
+                class="wish_field"
+                placeholder="Wish"
+              />
+            </div>
+            <input class="rsvp_button" type="button" value="Send" />
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6 card_section" data-aos="fade-up" data-aos-duration="3000">
+            <div class="card_wish text-start position-relative">
+              <img
+                class="ornament_card"
+                src="img/ornament_onlyleft.png"
+                alt="ornament"
+              />
+              <div class="row">
+                <div class="col-4">
+                  <h2 class="nama_wish">Evi Saputri</h2>
+                </div>
+                <div class="vertical_line col-2"></div>
+                <div class="isi_wish col-6">
+                  <span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Expedita, quaerat!
+                  </span>
+                  <span> Lorem ipsum dolor sit amet. </span>
+                </div>
+              </div>
+            </div>
+            <div class="card_wish text-start position-relative">
+              <img
+                class="ornament_card"
+                src="img/ornament_onlyleft.png"
+                alt="ornament"
+              />
+              <div class="row">
+                <div class="col-4">
+                  <h2 class="nama_wish">Ade Saputri</h2>
+                </div>
+                <div class="vertical_line col-2"></div>
+                <div class="isi_wish col-6">
+                  <span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Expedita, quaerat!
+                  </span>
+                  <span> Lorem ipsum dolor sit amet. </span>
+                </div>
+              </div>
+            </div>
+            <div class="card_wish text-start position-relative">
+              <img
+                class="ornament_card"
+                src="img/ornament_onlyleft.png"
+                alt="ornament"
+              />
+              <div class="row">
+                <div class="col-4">
+                  <h2 class="nama_wish">Arkhan Saputra</h2>
+                </div>
+                <div class="vertical_line col-2"></div>
+                <div class="isi_wish col-6">
+                  <span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Expedita, quaerat!
+                  </span>
+                  <span> Lorem ipsum dolor sit amet. </span>
+                </div>
+              </div>
+            </div>
+            <div class="card_wish text-start position-relative">
+              <img
+                class="ornament_card"
+                src="img/ornament_onlyleft.png"
+                alt="ornament"
+              />
+              <div class="row">
+                <div class="col-4">
+                  <h2 class="nama_wish">Rani Pabudi</h2>
+                </div>
+                <div class="vertical_line col-2"></div>
+                <div class="isi_wish col-6">
+                  <span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Expedita, quaerat!
+                  </span>
+                  <span> Lorem ipsum dolor sit amet. </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stream_section">
+      <div class="container text-center">
+        <h1 class="stream_title mb-4" data-aos="fade-up" data-aos-duration="3000">WATCH US HERE!</h1>
+        <a class="stream_button" href="" data-aos="fade-up" data-aos-duration="3000">Live stream Link</a>
+      </div>
+    </section>
+    <section id="instagram_section">
+      <div class="container text-center">
+        <h1 class="filter_title" data-aos="fade-down" data-aos-duration="3000">INSTAGRAM FILTER</h1>
+        <p class="info_filter mb-md-5 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          Help us capture the best moments of our wedding with instagram filters
+          instories. Save the filter that we have provided and don't forget to
+          subscribe to our Instagram
+        </p>
+        <a class="filter_button" href="instagram.com" data-aos="fade-up" data-aos-duration="3000">Instagram Filter</a>
+        <p class="tips_filter mt-3" data-aos="fade-up" data-aos-duration="3000">
+          *It is recomeneded to update the latest version of Instagram
+        </p>
+      </div>
+    </section>
+    <section id="footer_section" class="position-relative">
+      <div class="container text-center">
+        <h5 class="thanks_text">Terima Kasih</h5>
+        <p class="name_footerA">Andre</p>
+        <p class="and_footer">&</p>
+        <p class="name_footerS">Sofia</p>
+        <h4 class="ortu_footer">Bapak H. Jami Assidiqi dan Ibu Nur Arrohmah</h4>
+        <h4 class="ortu_footer">Bapak H. Ahmad Sumanto dan Ibu Nur Astiani</h4>
+      </div>
+    </section>
+    <section id="footer" class="py-4 px-2 d-block d-sm-none">
+      <div class="container row text-start">
+        <div class="col-6">
+          <p class="link_footer">
+            <a href="#ayatsuci_section">QS Ar-Rum</a>
+          </p>
+          <p class="link_footer">
+            <a href="#bridename_section">Bride Name</a>
+          </p>
+          <p class="link_footer">
+            <a href="#kiasan_section">Kata Kiasan</a>
+          </p>
+          <p class="link_footer">
+            <a href="#savedate_section">Save the date</a>
+          </p>
+          <p class="link_footer">
+            <a href="#countdown_section">Hitung Mundur</a>
+          </p>
+          <p class="link_footer">
+            <a href="#lovestory_section">Love Story</a>
+          </p>
+        </div>
+        <div class="col-6">
+          <p class="link_footer">
+            <a href="#bestmoment_section">Gallery</a>
+          </p>
+          <p class="link_footer">
+            <a href="#rsvp_section">RSVP</a>
+          </p>
+          <p class="link_footer">
+            <a href="#gift_section">Gift</a>
+          </p>
+          <p class="link_footer">
+            <a href="#wishes_section">Wish</a>
+          </p>
+          <p class="link_footer">
+            <a href="#stream_section">Watch us</a>
+          </p>
+          <p class="link_footer">
+            <a href="#instagram_section">Instagram Filter</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- music section -->
+    <div id="btn-play" class="btn-play" style="display: block">
+      <button type="button" class="music" onclick="play()">
+        <i class="fa fa-music" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div id="btn-stop" class="btn-stop" style="display: none">
+      <button type="button" class="music" onclick="stop()">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+    </div>
+    <audio loop autoplay id="audio" src="assets/audio.mp3"></audio>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/sakura/sakura.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script>
+      function play() {
+        document.getElementById("btn-play").style.display = "none";
+        document.getElementById("btn-stop").style.display = "block";
+        var sound = document.getElementById("audio");
+        sound.pause();
+      }
+
+      function stop() {
+        document.getElementById("btn-play").style.display = "block";
+        document.getElementById("btn-stop").style.display = "none";
+        var sound = document.getElementById("audio");
+        sound.play();
+      }
+      $(document).ready(function () {
+        AOS.init({
+          easing: "ease-out-back",
+          duration: 1000,
+        });
+      });
+
+      var currentState = "show";
+      window.toggle_click = function () {
+        if (currentState === "show") {
+          $("#popup").removeClass("panel-show");
+          currentState = "hide";
+          document.getElementById("btn-play").style.display = "block";
+          document.getElementById("btn-stop").style.display = "none";
+          var sound = document.getElementById("audio");
+          sound.play();
+        } else {
+          $("#popup").removeClass("panel-hide");
+          currentState = "show";
+        }
+        $("#popup").addClass("panel-" + currentState);
+      };
+
+      $("#data-wishes").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+            center: true,
+          },
+          576: {
+            items: 2,
+          },
+          768: {
+            items: 3,
+          },
+          992: {
+            items: 3,
+          },
+        },
+      });
+      $("#clock").countdown("2023/09/28 17:00:00", function (event) {
+        $(this).html(
+          event.strftime(
+            '<div class="countdown col-sm-3 col-6 lh-sm"><span class="number_countdown"> %D </span> <br />Days</div><div class="countdown col-sm-3 col-6 lh-sm"><span class="number_countdown"> %H </span> <br />Hours</div><div class="countdown col-sm-3 col-6 lh-sm"><span class="number_countdown"> %M </span> <br />Minutes</div><div class="countdown col-sm-3 col-6 lh-sm"><span class="number_countdown"> %S </span> <br />Seconds</div>'
+          )
+        );
+      });
+    </script>
+  </body>
+</html>

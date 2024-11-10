@@ -1,0 +1,588 @@
+@font-face {
+  font-family: Monstera Jam;
+  src: url("../font/MonsteraJamBold-0WEvd.ttf");
+}
+
+@font-face {
+  font-family: "PT Serif", serif;
+  src: url("../font/PTSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: Zachery;
+  src: url("../font/Zachery.otf");
+}
+
+@font-face {
+  font-family: Stuckeez;
+  src: url("../font/Stuckeez-Ea89l.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+}
+/* 
+body::-webkit-scrollbar {
+  display: none;
+} */
+
+*::selection {
+  background-color: #efb8c3;
+}
+
+.left_orn {
+  width: 360px;
+  position: absolute;
+  top: 240px;
+  left: 0px;
+}
+
+.right_orn {
+  width: 360px;
+  position: absolute;
+  top: -60px;
+  right: 0px;
+}
+
+.cover_wrapper {
+  padding-top: 530px;
+  padding-bottom: 120px;
+  color: #2b2b2b;
+}
+
+.name_coverA {
+  font-family: "Monstera Jam", sans-serif;
+  font-size: 150px;
+  position: absolute;
+  top: 160px;
+  left: 270px;
+}
+
+.and_cover {
+  font-family: "Stuckeez", sans-serif;
+  font-size: 190px;
+  position: absolute;
+  top: 220px;
+  left: 640px;
+}
+
+.name_coverS {
+  font-family: "Monstera Jam", sans-serif;
+  font-size: 150px;
+  position: absolute;
+  top: 230px;
+  right: 250px;
+}
+
+#ayatsuci_section,
+#bridename_section,
+#kiasan_section,
+#savedate_section,
+#lovestory_section,
+#bestmoment_section,
+#rsvp_section,
+#gift_section,
+#wishes_section,
+#stream_section,
+#instagram_section,
+#footer_section {
+  padding: 100px 200px;
+}
+
+#countdown_section {
+  padding: 70px 200px;
+}
+
+.savedate_title,
+.lovestory_title,
+.gallery_title,
+.gift_title,
+.stream_title,
+.filter_title {
+  font-size: 48px;
+}
+
+.ayat_arti {
+  font-size: 20px;
+}
+
+.nama_surat {
+  font-size: 20px;
+}
+
+#ayatsuci_section {
+  background-color: #ffeef1;
+}
+
+#bridename_section {
+  background-color: #efb8c3;
+}
+
+.salam {
+  font-size: 20px;
+}
+
+.and_BN {
+  font-family: "Zachery", sans-serif;
+  font-size: 60px;
+}
+
+.nama_pengantin {
+  font-size: 36px;
+}
+
+.nama_ortu {
+  font-size: 20px;
+}
+
+.photo_pengantin {
+  width: 240px;
+}
+
+.left_leaf_orn {
+  width: 200px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+}
+
+.right_leaf_orn {
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+.isi_kiasan {
+  font-size: 20px;
+}
+
+.oleh_kiasan {
+  font-size: 20px;
+}
+
+#savedate_section {
+  background-color: #efb8c3;
+}
+
+.tanggal {
+  font-size: 28px;
+}
+
+.line {
+  font-size: 28px;
+}
+
+.bulan {
+  font-size: 32px;
+}
+
+.tahun {
+  font-size: 28px;
+}
+
+.map_btn {
+  background-color: white;
+  color: #efb8c3;
+  text-decoration: none;
+  padding: 8px 40px;
+  border-radius: 30px;
+}
+
+.map_btn:hover {
+  background-color: #efb8c3;
+  color: white;
+  outline: solid white 1px;
+}
+
+.ornament_countdown {
+  position: absolute;
+  left: 0px;
+  top: 54px;
+  width: 160px;
+}
+
+.number_countdown {
+  font-size: 72px;
+}
+
+.countdown {
+  color: #be7584;
+  font-size: 24px;
+}
+
+#lovestory_section {
+  background-color: #efb8c3;
+}
+
+.photo_lovestory {
+  width: 220px;
+}
+
+.tanggal_lovestory {
+  font-size: 20px;
+}
+
+.isi_lovestory {
+  font-size: 16px;
+}
+
+.judul_lovestory {
+  font-size: 24px;
+}
+
+.card_lovestory {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.arrow_right {
+  font-size: 46px;
+  transform: rotateY("90");
+}
+
+.swipetext {
+  line-height: 24px;
+}
+
+.video_wedding {
+  height: 520px;
+}
+
+#rsvp_section {
+  background-color: #efb8c3;
+}
+
+.form > input,
+.form > select {
+  width: 100%;
+  padding: 2px 3px;
+  border-bottom: 1px #2b2b2b solid;
+  background-color: transparent;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 40px;
+  color: #2b2b2b;
+}
+
+.form > input::placeholder {
+  color: #2b2b2b;
+}
+
+.rsvp_button {
+  background-color: #2b2b2b;
+  padding: 8px 50px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: #efb8c3;
+}
+
+.rsvp_button:hover {
+  background-color: #efb8c3;
+  outline: solid #2b2b2b 1px;
+  color: #2b2b2b;
+}
+
+.count_sect {
+  line-height: 180px;
+}
+
+.count_rsvp {
+  color: #2b2b2b;
+  font-size: 190px;
+}
+
+.title_wedding {
+  color: #efb8c3;
+}
+
+.gift_btn {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  border: 2px solid #efb8c3;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 10px 10px #ededed;
+}
+
+.gift_btn:active {
+  box-shadow: none;
+}
+
+.modal-title {
+  color: white;
+}
+
+.rekening {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 30px 0px;
+}
+
+.nama_rekening {
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+.no_rekening {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.rekening > button {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.rekening > button:hover {
+  color: #2b2b2b;
+  background-color: white;
+  outline: #2b2b2b 1px solid;
+}
+
+.left_orn_gift {
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  width: 200px;
+}
+
+.right_orn_gift {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  width: 200px;
+}
+
+#wishes_section {
+  background-color: #efb8c3;
+}
+
+.card_wish {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 10px 0px;
+}
+
+.vertical_line {
+  border-left: 1px #2b2b2b solid;
+  height: auto;
+  width: 0px;
+}
+
+.ornament_card {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  width: 80px;
+}
+
+.card_section {
+  overflow: auto;
+  height: 320px;
+}
+.card_section::-webkit-scrollbar {
+  display: none;
+}
+
+#stream_section {
+  background-color: white;
+}
+
+.stream_button {
+  background-color: #2b2b2b;
+  padding: 12px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.stream_button:hover {
+  background-color: white;
+  text-decoration: none;
+  color: #2b2b2b;
+  outline: 1px solid #2b2b2b;
+}
+
+#instagram_section {
+  background-color: #efb8c3;
+}
+
+.filter_button {
+  background-color: #2b2b2b;
+  padding: 12px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.filter_button:hover {
+  background-color: #efb8c3;
+  text-decoration: none;
+  color: #2b2b2b;
+  outline: 1px solid #2b2b2b;
+}
+
+#footer_section {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.name_footerA {
+  font-family: "Monstera Jam", sans-serif;
+  font-size: 70px;
+  position: absolute;
+  top: 160px;
+  left: 450px;
+}
+
+.and_footer {
+  font-family: "Stuckeez", sans-serif;
+  font-size: 90px;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
+
+.name_footerS {
+  font-family: "Monstera Jam", sans-serif;
+  font-size: 70px;
+  position: absolute;
+  top: 210px;
+  right: 480px;
+}
+
+.thanks_text {
+  padding-bottom: 200px;
+}
+
+#btn-play button, #btn-stop button {
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+  z-index: 9;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .5);
+}
+
+#btn-play button, #btn-stop button {
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+  z-index: 9;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .5);
+}
+
+#popup {
+  background-image: url('../img/cover_dekstop.png');
+  background-color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+}
+
+#popup .container {
+  width: auto;
+  height: 50vh;
+}
+
+#popup .name {
+  left: -34%;
+  padding-top: 50px;
+  line-height: 0;
+  color:white
+}
+
+#popup .invite {
+  padding-top: 50px;
+  padding-right: 885px;
+  top: 400px;
+}
+
+#popup .invite span, #popup .invite p {
+  color: white;
+}
+
+#popup .invite p {
+  font-size: 24px;
+}
+
+#popup .nickname {
+  font-size: 140px;
+  font-family: "Monstera Jam", sans-serif;
+}
+
+#popup .sofia {
+  padding-left: 100px;
+}
+
+.and_inv {
+  padding-left: 20px;
+  font-size: 120px;
+  font-family: "Stuckeez", sans-serif;
+}
+
+#popup span {
+  font-size: 18px;
+}
+
+.btn-open {
+  border-color: white;
+  color: white;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.btn-open:hover, .btn-open:focus {
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 0 0 0.25rem white;
+}
+
+.panel-hide {
+  transform: translateY(-100%);
+  -webkit-transition: 1s linear !important;
+  -moz-transition: 1s linear !important;
+  -o-transition: 1s linear !important;
+  transition: 1s linear !important;
+}
+
+#footer{
+  background-color: white;
+}
+.link_footer a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+.link_footer a:active {
+  font-weight: bold;
+}

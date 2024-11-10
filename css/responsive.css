@@ -1,0 +1,795 @@
+/* large */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .left_orn {
+    width: 360px;
+    position: absolute;
+    top: 730px;
+    left: 0px;
+  }
+
+  .right_orn {
+    width: 360px;
+    position: absolute;
+    top: -60px;
+    right: 0px;
+  }
+
+  .name_coverA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 140px;
+    position: absolute;
+    top: 470px;
+    left: 200px;
+  }
+
+  .and_cover {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 170px;
+    position: absolute;
+    top: 540px;
+    left: 520px;
+  }
+
+  .name_coverS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 140px;
+    position: absolute;
+    top: 580px;
+    right: 140px;
+  }
+
+  #cover_section {
+    position: relative;
+    height: 1200px;
+    padding-top: 340px;
+  }
+
+  #ayatsuci_section,
+  #bridename_section,
+  #kiasan_section,
+  #savedate_section,
+  #lovestory_section,
+  #bestmoment_section,
+  #rsvp_section,
+  #gift_section,
+  #wishes_section,
+  #stream_section,
+  #instagram_section,
+  #footer_section {
+    padding: 50px 80px;
+  }
+
+  .number_countdown {
+    font-size: 60px;
+  }
+
+  .name_footerA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+  }
+
+  .and_footer {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 140px;
+    left: 490px;
+  }
+
+  .name_footerS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    right: 360px;
+  }
+}
+
+/* medium min-width: 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  #popup .name {
+    left: -0%;
+    padding-top: 330px;
+    line-height: 0;
+    color:white;
+  }
+  #popup .invite {
+    padding-top: 430px;
+    padding-right: 0px;
+    top: 400px;
+  }
+  .left_orn {
+    width: 360px;
+    position: absolute;
+    top: 730px;
+    left: 0px;
+  }
+
+  .right_orn {
+    width: 360px;
+    position: absolute;
+    top: -60px;
+    right: 0px;
+  }
+
+  .name_coverA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 120px;
+    position: absolute;
+    top: 490px;
+    left: 110px;
+  }
+
+  .and_cover {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 150px;
+    position: absolute;
+    top: 540px;
+    left: 400px;
+  }
+
+  .name_coverS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 120px;
+    position: absolute;
+    top: 580px;
+    right: 110px;
+  }
+
+  #cover_section {
+    position: relative;
+    height: 1200px;
+    padding-top: 320px;
+  }
+  
+  #ayatsuci_section,
+  #bridename_section,
+  #kiasan_section,
+  #savedate_section,
+  #lovestory_section,
+  #bestmoment_section,
+  #rsvp_section,
+  #gift_section,
+  #wishes_section,
+  #stream_section,
+  #instagram_section,
+  #footer_section {
+    padding: 50px 80px;
+  }
+
+  .savedate_title,
+  .lovestory_title,
+  .gallery_title,
+  .gift_title,
+  .stream_title,
+  .filter_title {
+    font-size: 36px;
+  }
+
+  #countdown_section {
+    padding: 30px 80px;
+  }
+
+  .number_countdown {
+    font-size: 60px;
+  }
+
+  .ayat_arti,
+  .nama_surat {
+    font-size: 16px;
+  }
+
+  .salam {
+    font-size: 16px;
+  }
+
+  .and_BN {
+    font-size: 50px;
+  }
+
+  .photo_pengantin {
+    width: 200px;
+  }
+  
+  .nama_pengantin {
+    font-size: 28px;
+  }
+
+  .nama_ortu {
+    font-size: 16px;
+  }
+  
+  .isi_kiasan,
+  .oleh_kiasan {
+    font-size: 16px;
+  }
+  
+  .judulacara {
+    font-size: 26px;
+  }
+
+  .hari {
+    font-size: 20px;
+  }
+
+  .tanggal {
+    font-size: 20px;
+  }
+  
+  .bulan {
+    font-size: 26px;
+  }
+  
+  .tahun {
+    font-size: 20px;
+  }
+  
+  .jam {
+    font-size: 26px;
+  }
+
+  .tempat {
+    font-size: 24px;
+  }
+
+  .alamat {
+    font-size: 16px;
+  }
+
+  .number_countdown {
+    font-size: 60px;
+  }
+
+  .countdown {
+    font-size: 20px;
+  }
+
+  .ornament_countdown {
+    position: absolute;
+    left: 0px;
+    top: 32px;
+    width: 100px;
+  }
+  
+  .photo_lovestory {
+    width: 158px;
+  }
+
+  .judul_lovestory {
+    font-size: 20px;
+  }
+  
+  .tanggal_lovestory {
+    font-size: 18px;
+  }
+
+  .isi_lovestory {
+    font-size: 16px;
+  }
+
+  .video_wedding {
+    height: 360px;
+  }
+  
+  .rsvp_subtitle {
+    font-size: 18px;
+  }
+
+  .rsvp_title {
+    font-size: 26px;
+  }
+
+  .info_rsvp {
+    font-size: 16px;
+  }
+
+  .count_sect {
+    line-height: 140px;
+  }
+
+  .count_sect > h2 {
+    font-size: 24px;
+  }
+
+  .count_rsvp {
+    margin-top: 30px;
+    font-size: 140px;
+  }
+
+  .gift_btn {
+    margin-top: 10px;
+  }
+
+  .info_gift {
+    font-size: 16px;
+  }
+  
+  .wish_title {
+    font-size: 26px;
+  }
+
+  .card_wish {
+    padding: 20px;
+    margin: 10px 0px;
+  }
+
+  .nama_wish {
+    font-size: 20px;
+  }
+
+  .isi_wish {
+    font-size: 16px;
+  }
+
+  .ornament_card {
+    width: 70px;
+  }
+
+  .name_footerA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 110px;
+    left: 250px;
+  }
+  
+  .and_footer {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 140px;
+    left: 390px;
+  }
+
+  .name_footerS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    right: 260px;
+  }
+
+  .ortu_footer {
+    font-size: 16px;
+  }
+
+  .vertical_line {
+    margin: 0px 10px;
+    padding: 0px;
+  }
+}
+
+/* Mengubah position nama pengantin (absolute position) */
+@media (min-width: 765px) and (max-width: 768px) {
+  .name_coverA {
+    top: 490px;
+    left: 90px;
+  }
+
+  .and_cover {
+    top: 540px;
+    left: 370px;
+  }
+
+  .name_coverS {
+    top: 580px;
+    right: 90px;
+  }
+
+  .name_footerA {
+    top: 110px;
+    left: 230px;
+  }
+  
+  .and_footer {
+    top: 140px;
+    left: 370px;
+  }
+
+  .name_footerS {
+    top: 150px;
+    right: 230px;
+  }
+}
+
+/* small */
+@media (min-width: 576px) and (max-width: 767px) {
+  #popup .name {
+    left: -0%;
+    padding-top: 330px;
+    line-height: 0;
+    color:white;
+  }
+  #popup .invite {
+    padding-top: 430px;
+    padding-right: 0px;
+    top: 400px;
+  }
+  .left_orn {
+    width: 360px;
+    position: absolute;
+    top: 730px;
+    left: 0px;
+  }
+
+  .right_orn {
+    width: 360px;
+    position: absolute;
+    top: -60px;
+    right: 0px;
+  }
+
+  .name_coverA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 120px;
+    position: absolute;
+    top: 490px;
+    left: 50px;
+  }
+
+  .and_cover {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 150px;
+    position: absolute;
+    top: 540px;
+    left: 340px;
+  }
+
+  .name_coverS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 120px;
+    position: absolute;
+    top: 580px;
+    right: 60px;
+  }
+
+  #cover_section {
+    position: relative;
+    height: 1200px;
+    padding-top: 320px;
+  }
+
+  #ayatsuci_section,
+  #bridename_section,
+  #kiasan_section,
+  #savedate_section,
+  #lovestory_section,
+  #bestmoment_section,
+  #rsvp_section,
+  #gift_section,
+  #wishes_section,
+  #stream_section,
+  #instagram_section,
+  #footer_section {
+    padding: 40px 10px;
+  }
+
+  .savedate_title,
+  .lovestory_title,
+  .gallery_title,
+  .gift_title,
+  .stream_title,
+  .filter_title {
+    font-size: 32px;
+  }
+
+  .and_BN {
+    margin: 30px 0px;
+  }
+
+  .tanggal_ {
+    margin-left: 76px;
+    width: 360px;
+  }
+
+  .resepsi {
+    margin-top: 40px;
+  }
+
+  #countdown_section {
+    padding: 20px 10px;
+  }
+
+  .ornament_countdown {
+    width: 80px;
+    top: 20px;
+  }
+
+  .number_countdown {
+    font-size: 48px;
+  }
+
+  .countdown {
+    font-size: 16px;
+  }
+
+  .photo_lovestory {
+    width: 476px;
+  }
+
+  .video_wedding {
+    height: 320px;
+  }
+
+  .count_rsvp {
+    margin-top: 50px;
+    font-size: 120px;
+  }
+
+  .count_sect > h2 {
+    font-size: 20px;
+  }
+
+  .count_sect {
+    line-height: 90px;
+  }
+
+  .gift_btn {
+    margin-top: 0px;
+  }
+
+  .ornament_card {
+    width: 42px;
+  }
+
+  .card_section {
+    margin-top: 15px;
+  }
+
+  .name_footerA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+  }
+  
+  .and_footer {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 110px;
+    left: 354px;
+  }
+
+  .name_footerS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 130px;
+    right: 200px;
+  } 
+
+  .thanks_text {
+    padding-bottom: 180px;
+  }
+
+  .card_section {
+    height: 210px;
+  }
+}
+
+/* x-small */
+@media (max-width: 575px) {
+  .left_orn {
+    width: 240px;
+    position: absolute;
+    top: 530px;
+    left: 0px;
+  }
+
+  .right_orn {
+    width: 240px;
+    position: absolute;
+    top: -40px;
+    right: 0px;
+  }
+
+  .name_coverA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 70px;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+  }
+
+  .and_cover {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 90px;
+    position: absolute;
+    top: 350px;
+    left: 190px;
+  }
+
+  .name_coverS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 70px;
+    position: absolute;
+    top: 360px;
+    right: 20px;
+  }
+
+  #cover_section {
+    position: relative;
+    height: 840px;
+  }
+
+  #ayatsuci_section,
+  #bridename_section,
+  #kiasan_section,
+  #savedate_section,
+  #lovestory_section,
+  #bestmoment_section,
+  #rsvp_section,
+  #gift_section,
+  #wishes_section,
+  #stream_section,
+  #instagram_section,
+  #footer_section {
+    padding: 30px 10px;
+  }
+
+  .savedate_title,
+  .lovestory_title,
+  .gallery_title,
+  .gift_title,
+  .stream_title,
+  .filter_title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .and_BN {
+    margin: 30px 0px;
+  }
+
+  .left_leaf_orn {
+    z-index: -1;
+    width: 120px;
+  }
+
+  .right_leaf_orn {
+    z-index: -1;
+    width: 120px;
+  }
+
+  .ijab {
+    padding-bottom: 20px;
+  }
+
+  #countdown_section {
+    padding: 20px 10px;
+  }
+
+  .ornament_countdown {
+    top: 190px;
+    width: 70px;
+    z-index: -1;
+  }
+
+  .photo_lovestory {
+    width: 310px;
+  }
+
+  .arrow_right {
+    font-size: 32px;
+  }
+
+  .swipetext {
+    line-height: 18px;
+    font-size: 12px;
+  }
+
+  .count_rsvp {
+    font-size: 120px;
+    margin-top: 20px;
+  }
+  
+  .count_sect {
+    line-height: 100px;
+  }
+  
+  .count_sect > h2 {
+    font-size: 20px;
+  }
+
+  .left_orn_gift {
+    width: 120px;
+    z-index: -1;
+  }
+  
+  .right_orn_gift {
+    width: 120px;
+    z-index: -1;
+  }
+
+  .modal-body {
+    height: 500px;
+  }
+
+  .card_section {
+    height: 260px;
+    margin-top: 10px;
+  }
+
+  .rsvp_subtitle {
+    font-size: 16px;
+  }
+
+  .name_footerA {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 48px;
+    position: absolute;
+    top: 70px;
+    left: 74px;
+  }
+  
+  .and_footer {
+    font-family: "Stuckeez", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+  }
+
+  .name_footerS {
+    font-family: "Monstera Jam", sans-serif;
+    font-size: 48px;
+    position: absolute;
+    top: 110px;
+    right: 74px;
+  }
+
+  .thanks_text {
+    padding-bottom: 140px;
+  }
+
+  .ortu_footer {
+    font-size: 16px;
+  }
+
+  .video_wedding {
+    height: 190px;
+  }
+
+  #popup {
+    background-image: url('../img/cover_mobile.png');
+  }
+
+  #popup .name {
+    left: -0%;
+    padding-top: 200px;
+    line-height: 0;
+    color:white;
+  }
+  #popup .invite {
+    padding-top: 200px;
+    padding-right: 0px;
+    top: 310px;
+  }
+  #popup .nickname {
+    font-size: 90px;
+    font-family: "Monstera Jam", sans-serif;
+  }
+  
+  .atas {
+    padding-top: 60px;
+  }
+
+  .and_inv {
+    padding-right: 20px;
+    font-size: 90px;
+    font-family: "Stuckeez", sans-serif;
+  }
+
+  #popup .sofia {
+    padding-left: 70px;
+  }
+
+  #popup .andre {
+    padding-right: 70px;
+  }
+}
